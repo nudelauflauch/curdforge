@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "curd_mod:duff"
+        },
+        {
+            "item": "curd_mod:raisins"
+        }
+    ],
+    "result": {
+        "item": "curd_mod:duff_raisins",
+        "count": 1
+    }
+}

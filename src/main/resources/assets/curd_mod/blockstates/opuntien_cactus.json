@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "curd_mod:block/opuntien_cactus_1"
+    },
+    "age=1": {
+      "model": "curd_mod:block/opuntien_cactus_1"
+    },
+    "age=2": {
+      "model": "curd_mod:block/opuntien_cactus_2"
+    },
+    "age=3": {
+      "model": "curd_mod:block/opuntien_cactus_3"
+    },
+    "age=4": {
+      "model": "curd_mod:block/opuntien_cactus_4"
+    },
+    "age=5": {
+      "model": "curd_mod:block/opuntien_cactus_5"
+    },
+    "age=6": {
+      "model": "curd_mod:block/opuntien_cactus_6"
+    },
+    "age=7": {
+      "model": "curd_mod:block/opuntien_cactus_7"
+    },
+    "age=8": {
+      "model": "curd_mod:block/opuntien_cactus_8"
+    }
+  }
+}

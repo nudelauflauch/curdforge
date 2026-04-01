@@ -1,0 +1,8 @@
+{
+  "name": "Cooking with Curd",
+  "landing_text": "Welcome to a help book",
+  "version": 1,
+  "model": "curd_mod:book",
+  "creative_tab": "curd_materials_tab",
+  "link_color": "000000"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Kefir Crystals",
+    "icon": "curd_mod:kefir_crystal",
+    "category": "curd_mod:cooking_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(bold)What you need:$()$(br)$(l:curd_mod:cooking/tibicos)-tibicos$()$(br)-sugar$(br)$(l:curd_mod:cooking/crafting#crystallizer)-kefir crystallizer$()$(br2)Put the tibicos into the kefir crystallizer, then spread the sugar over it. Now wait a bit and you'll get kefir crystals."
+        },
+        {
+        "type": "image",
+			"images": [
+				"curd_mod:textures/gui/entries/kefir_crystalizer.png"
+			],
+			"border": true
+        }
+
+    ]
+}

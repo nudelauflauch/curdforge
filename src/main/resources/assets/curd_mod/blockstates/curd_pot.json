@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"level=0": {
+			"model": "curd_mod:block/curd_pot_0"
+		},
+		"level=1": {
+			"model": "curd_mod:block/curd_pot_1"
+		},
+		"level=2": {
+			"model": "curd_mod:block/curd_pot_2"
+		},
+		"level=3": {
+			"model": "curd_mod:block/curd_pot_3"
+		}
+	}
+}

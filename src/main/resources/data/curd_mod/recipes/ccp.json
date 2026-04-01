@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "CSC",
+        "WWW"
+    ],
+    "key": {
+        "#": {
+            "item": "curd_mod:raisins"
+        },
+        "C": {
+            "item": "curd_mod:curd"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "W": {
+            "item": "minecraft:wheat"
+        }
+    },
+    "result": {
+        "item": "curd_mod:ccp_raw",
+        "count": 3
+    }
+}

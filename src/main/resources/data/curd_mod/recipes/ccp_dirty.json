@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#F#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dirt"
+        },
+        "F": {
+            "item": "curd_mod:ccp"
+        }
+    },
+    "result": {
+        "item": "curd_mod:ccp_dirty",
+        "count": 1
+    }
+}

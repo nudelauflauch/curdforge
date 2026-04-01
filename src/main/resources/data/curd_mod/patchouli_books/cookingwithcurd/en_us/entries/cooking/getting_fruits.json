@@ -1,0 +1,23 @@
+{
+	"name": "Getting Fruits",
+	"icon": "curd_mod:plum",
+	"category": "curd_mod:cooking_category",
+	"pages": [
+		{
+			"type": "text",
+			"title": "How to getting fruits",
+			"text": "To bake yummy dishes you need a lot of ingredients, for example fruits. You can harvest them from tree leaves. There are five fruits to collect.$(br2) $(br2) $(br) $(br2) -->"
+		},
+		{
+			"type": "image",
+			"images": [
+				"curd_mod:textures/gui/entries/fruits.png"
+			],
+			"border": true
+		},
+		{
+			"type": "text",
+			"text": "$(bold)How to get the fruits$()$(br)-plums you get from common oak leaves$(br)-peaches you get from birch leaves$(br)-cherries you get from dark oak leaves$(br)-lemons you get from accacia leaves"
+		}
+	]
+}

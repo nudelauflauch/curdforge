@@ -1,0 +1,19 @@
+{
+	"name": "Brewing Jam",
+	"icon": "curd_mod:stove",
+	"category": "curd_mod:cooking_category",
+	"pages": [
+		{
+			"type": "text",
+			"title": "How to get something",
+			"text": "$(bold)What you need:$()$(br)-two heaps of sugar$(br)$(l:curd_mod:cooking/getting_fruits)-a fruit$()$(br)$(l:curd_mod:cooking/crafting#stove)-a stove$()$(br2)Put all ingredients and some burnable into the stove. Then you will get jam out of the fruit."
+		},
+		{
+			"type": "image",
+			"images": [
+				"curd_mod:textures/gui/entries/jam_maker.png"
+			],
+			"border": true
+		}
+	]
+}

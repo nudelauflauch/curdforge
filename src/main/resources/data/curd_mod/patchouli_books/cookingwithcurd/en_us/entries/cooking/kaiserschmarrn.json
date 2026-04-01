@@ -1,0 +1,43 @@
+{
+	"name": "Kaiserschmarrn",
+	"icon": "curd_mod:kaiserschmarrn",
+	"category": "curd_mod:cooking_category",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Kaiserschmarrn is a traditional austrian meal which is made like a pancake except the dough has been chopped up.$(br)To get a kaiserschmarrn craft a pancake place it and distroy it again.$(br)You can also put some Jam to the Kaiserschmarrn to make it even more delicious."
+		},
+		{
+			"type": "image",
+			"images": [
+				"curd_mod:textures/gui/entries/kaiserschmarrn.png"
+			],
+			"border": true
+		},
+		{
+			"type": "crafting",
+			"recipe": "curd_mod:kaiserschmarrn_apple_pure",
+			"recipe2": "curd_mod:kaiserschmarrn_apricot"
+		},
+		{
+			"type": "crafting",
+			"recipe": "curd_mod:kaiserschmarrn_cherry",
+			"recipe2": "curd_mod:kaiserschmarrn_powidl"
+		},
+		{
+			"type": "crafting",
+			"recipe": "curd_mod:kaiserschmarrn_raisin_apple_pure",
+			"recipe2": "curd_mod:kaiserschmarrn_raisin_powidl"
+		},
+		{
+			"type": "crafting",
+			"recipe": "curd_mod:kaiserschmarrn_raisin_sweetberry",
+			"recipe2": "curd_mod:kaiserschmarrn_raisin_apricot"
+		},
+		{
+			"type": "crafting",
+			"recipe": "curd_mod:kaiserschmarrn_raisin_cherry",
+			"recipe2": "curd_mod:kaiserschmarrn_raisin"
+		}
+	]
+}

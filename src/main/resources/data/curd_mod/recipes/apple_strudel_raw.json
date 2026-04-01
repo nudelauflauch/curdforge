@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "ACA",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "curd_mod:puff_paste_raw"
+        },
+        "A": {
+            "item": "minecraft:apple"
+        },
+        "C": {
+            "item": "curd_mod:raisins"
+        }
+    },
+    "result": {
+        "item": "curd_mod:apple_strudel_raw",
+        "count": 1
+    }
+}

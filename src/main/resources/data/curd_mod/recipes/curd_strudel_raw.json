@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "CZC",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "curd_mod:puff_paste_raw"
+        },
+        "C": {
+            "item": "curd_mod:curd"
+        },
+        "Z": {
+            "item": "curd_mod:raisins"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "item": "curd_mod:curd_strudel_raw",
+        "count": 1
+    }
+}

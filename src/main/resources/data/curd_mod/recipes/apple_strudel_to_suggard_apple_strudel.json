@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        " C "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "C": {
+            "item": "curd_mod:apple_strudel"
+        }
+    },
+    "result": {
+        "item": "curd_mod:apple_strudel_piece_sugard",
+        "count": 8
+    }
+}

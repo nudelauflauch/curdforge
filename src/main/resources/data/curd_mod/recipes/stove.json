@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "iCi",
+        "iSi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "C": {
+            "item": "minecraft:cauldron"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        }
+    },
+    "result": {
+        "item": "curd_mod:stove",
+        "count": 1
+    }
+}

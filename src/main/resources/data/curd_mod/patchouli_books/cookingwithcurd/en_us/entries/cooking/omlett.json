@@ -1,0 +1,32 @@
+{
+	"name": "Omlett",
+	"icon": "curd_mod:duff",
+	"category": "curd_mod:cooking_category",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Omlett is a rolled duff with jam inside.$(br)You make it out of $(l:curd_mod:cooking/crafting#duff)duff or duff with raisins $()on the campfire."
+		},
+		{
+			"type": "image",
+			"images": [
+				"curd_mod:textures/gui/entries/omlett.png"
+			],
+			"border": true
+		},
+		{
+			"type": "crafting",
+			"recipe": "curd_mod:omlett_apple",
+			"recipe2": "curd_mod:omlett_apricot"
+		},
+		{
+			"type": "crafting",
+			"recipe": "curd_mod:omlett_choco",
+			"recipe2": "curd_mod:omlett_sweetberry"
+		},
+		{
+			"type": "crafting",
+			"recipe": "curd_mod:omlett_powidl"
+		}
+	]
+}

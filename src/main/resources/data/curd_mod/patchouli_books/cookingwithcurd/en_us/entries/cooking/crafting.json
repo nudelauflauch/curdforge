@@ -1,0 +1,58 @@
+{
+	"name": "Crafting",
+	"icon": "minecraft:crafting_table",
+	"category": "curd_mod:cooking_category",
+	"pages": [
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"anchor": "stove",
+			"recipe": "curd_mod:stove"
+		},
+		{
+			"type": "text",
+			"text": ""
+		},
+		{
+			"type": "crafting",
+			"anchor": "curd_pot",
+			"recipe": "curd_mod:curd_pot",
+			"recipe2": "curd_mod:sieve"
+		},
+		{
+			"type": "text",
+			"text": ""
+		},
+		{
+			"type": "crafting",
+			"anchor": "crystallizer",
+			"recipe": "curd_mod:kefir_crystallizer"
+		},
+		{
+			"type": "text",
+			"text": ""
+		},
+		{
+			"type": "crafting",
+			"anchor": "kefir_jar",
+			"recipe": "curd_mod:kefir_jar",
+			"recipe2": "curd_mod:kefir_tumbler"
+		},
+		{
+			"type": "text",
+			"text": ""
+		},
+		{
+			"type": "crafting",
+			"anchor": "duff",
+			"recipe": "curd_mod:duff_raw",
+			"recipe2": "curd_mod:duff_raw_raisin"
+		},
+		{
+			"type": "crafting",
+			"anchor": "kefir_jar",
+			"recipe": "curd_mod:duff_raw__raisin_to_omlett_raisin",
+			"recipe2": "curd_mod:duff_raw_to_omlett"
+		}
+	]
+}

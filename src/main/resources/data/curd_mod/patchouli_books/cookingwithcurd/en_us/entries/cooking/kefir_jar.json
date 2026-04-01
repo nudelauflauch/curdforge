@@ -1,0 +1,18 @@
+{
+	"name": "Kefir Jar",
+	"icon": "curd_mod:kefir_jar",
+	"category": "curd_mod:cooking_category",
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(bold)What you need:$()$(br)$(l:curd_mod:cooking/crafting#kefir_jar)-kefir jar$()$(br)$(l:curd_mod:cooking/crafting#kefir_jar)-kefir tumbler$()$(br)$(l:curd_mod:cooking/curd_pot)-whey$()$(br)$(l:curd_mod:cooking/kefir_crystals)-kefir crystals$()$(br)$(l:curd_mod:cooking/getting_fruits)-a fruit$()$(br2)Add whey and kefir crystals in the kefir jar. After you filled in a fruit of your choice wait 10 seconds. With a kefir tumbler you can get your kefir."
+		},
+		{
+			"type": "image",
+			"images": [
+				"curd_mod:textures/gui/entries/kefir_jar.png"
+			],
+			"border": true
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "How to make Curd",
+	"icon": "curd_mod:curd_pot",
+	"category": "curd_mod:cooking_category",
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(bold)What you need$()$(br)-two Buckets of Milk$(br)$(l:curd_mod:cooking/crafting#stove)-a Sieve $()$(br)-an empty Bottle$(br)$(l:curd_mod:cooking/crafting#curd_pot)-a Curd Pot$()$(br2)First put the milk into the pot and pass the sieve once through the milk. Now you got curd. After that you can fill the byproduct whey into a Bottle. This product is really useful for brewing kefir."
+		},
+		{
+			"type": "image",
+			"images": [
+				"curd_mod:textures/gui/entries/curd_pot.png"
+			],
+			"border": true
+		}
+	]
+}

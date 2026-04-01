@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:potato"
+    },
+    "result": "curd_mod:fries",
+    "experience": 0.1,
+    "cookingtime": 200
+}

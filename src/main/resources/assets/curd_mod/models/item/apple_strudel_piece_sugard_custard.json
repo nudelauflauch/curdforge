@@ -1,0 +1,6 @@
+{
+	"parent":"item/generated",
+	"textures": {
+		"layer0": "curd_mod:item/strudel/apple_strudel_piece_sugard_custard"
+	}
+}

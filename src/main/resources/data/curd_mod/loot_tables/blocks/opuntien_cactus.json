@@ -1,0 +1,94 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "curd_mod:opuntien_blossom",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "curd_mod:opuntien_cactus",
+							"properties": {
+								"age": "5"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "curd_mod:opuntien_blossom",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "curd_mod:opuntien_cactus",
+							"properties": {
+								"age": "6"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "curd_mod:opuntien_blossom",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "curd_mod:opuntien_cactus",
+							"properties": {
+								"age": "7"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "curd_mod:opuntien_blossom",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 4
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "curd_mod:opuntien_cactus",
+							"properties": {
+								"age": "8"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

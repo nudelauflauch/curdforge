@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "OiO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:carrot"
+        },
+        "O": {
+            "item": "minecraft:oak_planks"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "curd_mod:curd_pot",
+        "count": 8
+    }
+}

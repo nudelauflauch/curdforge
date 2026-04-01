@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "curd_mod:lost_ccp_block"
+        }
+    ],
+    "result": {
+        "item": "curd_mod:lost_ccp_item",
+        "count": 9
+    }
+}

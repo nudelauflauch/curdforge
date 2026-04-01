@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "curd_mod:duff"
+        },
+        {
+            "item": "curd_mod:chocolate"
+        }
+    ],
+    "result": {
+        "item": "curd_mod:omlett_choco",
+        "count": 1
+    }
+}

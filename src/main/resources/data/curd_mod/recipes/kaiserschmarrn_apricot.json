@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "curd_mod:jam_apricot"
+        },
+        {
+            "item": "curd_mod:kaiserschmarrn"
+        },
+        {
+            "item": "curd_mod:jam_apricot"
+        }
+    ],
+    "result": {
+        "item": "curd_mod:kaiserschmarrn_apricot",
+        "count": 2
+    }
+}

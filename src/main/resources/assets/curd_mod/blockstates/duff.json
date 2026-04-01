@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "curd_mod:block/duff" },
+        "facing=south": { "model": "curd_mod:block/duff", "y": 180 },
+        "facing=west":  { "model": "curd_mod:block/duff", "y": 270 },
+        "facing=east":  { "model": "curd_mod:block/duff", "y": 90 }
+    }
+}

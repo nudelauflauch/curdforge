@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "OiO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        },
+        "i": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "curd_mod:kefir_crystallizer",
+        "count": 1
+    }
+}

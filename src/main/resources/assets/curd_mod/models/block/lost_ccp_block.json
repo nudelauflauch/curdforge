@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "curd_mod:block/lost_ccp_block"
+  }
+}

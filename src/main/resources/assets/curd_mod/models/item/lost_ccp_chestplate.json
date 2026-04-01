@@ -1,0 +1,6 @@
+{
+	"parent":"item/generated",
+	"textures": {
+		"layer0": "curd_mod:item/ore/lost_ccp_chestplate"
+	}
+}

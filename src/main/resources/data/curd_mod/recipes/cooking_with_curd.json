@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:book"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        }
+    ],
+    "result": {
+        "type": "forge:nbt",
+        "item": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+            "patchouli:book": "curd_mod:cookingwithcurd"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "curd_mod:tile"
+        }
+    },
+    "result": {
+        "item": "curd_mod:lost_ccp_item",
+        "count": 4
+    }
+}

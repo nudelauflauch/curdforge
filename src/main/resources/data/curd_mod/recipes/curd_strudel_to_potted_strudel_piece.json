@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "curd_mod:curd_strudel"
+        }
+    ],
+    "result": {
+        "item": "curd_mod:curd_strudel_piece",
+        "count": 1
+    }
+}
