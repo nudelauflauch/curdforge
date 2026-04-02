@@ -1,6 +1,5 @@
 package net.stehschnitzel.curdforge.init;
 
-import net.minecraft.core.NonNullList;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -28,7 +27,7 @@ public class CFCreativeTabInit{
 		items.accept(CFItemInit.CURD_CHEESE_POCKET.get());
 		items.accept(CFItemInit.APPLE_STRUDEL.get());
 		items.accept(CFItemInit.MILK_PUDDING.get());
-		items.accept(CFItemInit.PUMPKIN_TARTAR.get());
+		items.accept(CFItemInit.PUMPKIN_TART.get());
 		items.accept(CFItemInit.SWEET_BERRY_ROLE.get());
 
 		items.accept(CFItemInit.CURD.get());

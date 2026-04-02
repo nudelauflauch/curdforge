@@ -2,9 +2,12 @@ package net.stehschnitzel.curdforge.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.stehschnitzel.curdforge.Curdforge;
 import net.stehschnitzel.curdforge.init.CFItemInit;
+import vectorwing.farmersdelight.common.registry.ModItems;
 
 import java.util.function.Consumer;
 
@@ -16,7 +19,7 @@ public class CFRecipeProvider extends RecipeProvider implements IConditionBuilde
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, CFItemInit.PUMPKIN_TARTAR.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, CFItemInit.PUMPKIN_TART.get())
                 .requires(Items.WHEAT)
                 .requires(Items.WHEAT)
                 .requires(Items.PUMPKIN)
@@ -43,6 +46,14 @@ public class CFRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .unlockedBy(getHasName(CFItemInit.CURD.get()), has(CFItemInit.CURD.get()))
                 .unlockedBy(getHasName(Items.PUMPKIN), has(Items.PUMPKIN))
                 .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, CFItemInit.MILK_PUDDING.get(), 4)
+                .requires(ModItems.MILK_BOTTLE.get())
+                .requires(Items.SUGAR)
+                .requires(CFItemInit.CURD.get())
+                .unlockedBy(getHasName(CFItemInit.CURD.get()), has(CFItemInit.CURD.get()))
+                .unlockedBy(getHasName(Items.PUMPKIN), has(Items.PUMPKIN))
+                .save(pWriter, ResourceLocation.fromNamespaceAndPath(Curdforge.MOD_ID, "milk_pudding_farmers_delight"));
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CFItemInit.CURD_CHEESE_POCKET.get())
                 .pattern(" # ")
