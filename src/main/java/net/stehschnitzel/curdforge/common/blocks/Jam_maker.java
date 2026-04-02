@@ -1,4 +1,4 @@
-package nudelauflauch.curd_mod.common.blocks;
+package net.stehschnitzel.curdforge.common.blocks;
 
 import java.util.stream.Stream;
 

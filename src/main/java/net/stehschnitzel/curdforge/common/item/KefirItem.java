@@ -14,6 +14,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemUtils;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
+import net.stehschnitzel.curdforge.init.CFItemInit;
 
 public class KefirItem extends Item {
 	public KefirItem(Item.Properties builder) {
@@ -30,10 +31,11 @@ public class KefirItem extends Item {
 			entityLiving.removeEffect(MobEffects.POISON);
 		}
 		if (stack.isEmpty()) {
-			return new ItemStack(nudelauflauch.curd_mod.core.init.CFItemInit.KEFIR_TUMBLER.get());
+            //KEFIR_TUMBLER
+			return new ItemStack(CFItemInit.CURD_CHEESE_POCKET.get());
 		} else {
 			if (entityLiving instanceof Player && !((Player) entityLiving).getAbilities().instabuild) {
-				ItemStack itemstack = new ItemStack(nudelauflauch.curd_mod.core.init.CFItemInit.KEFIR_TUMBLER.get());
+				ItemStack itemstack = new ItemStack(CFItemInit.CURD_CHEESE_POCKET.get());
 				Player playerentity = (Player) entityLiving;
 				if (!playerentity.getInventory().add(itemstack)) {
 					playerentity.drop(itemstack, false);

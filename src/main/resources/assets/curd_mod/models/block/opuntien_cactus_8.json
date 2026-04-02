@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "curd_mod:block/opuntien_cactus_8"
-  }
-}

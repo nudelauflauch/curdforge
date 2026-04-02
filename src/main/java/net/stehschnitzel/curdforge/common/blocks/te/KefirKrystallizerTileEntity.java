@@ -5,8 +5,8 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import nudelauflauch.curd_mod.common.blocks.Kefir_crystallizer;
 
+/*
 public class KefirKrystallizerTileEntity extends BlockEntity {
 	public static final String TIMER = "timer";
 
@@ -36,4 +36,4 @@ public class KefirKrystallizerTileEntity extends BlockEntity {
 			}
 		}
 	}
-}
+} */

@@ -1,4 +1,4 @@
-package nudelauflauch.curd_mod.common.blocks;
+package net.stehschnitzel.curdforge.common.blocks;
 
 import java.util.Random;
 import java.util.stream.Stream;
@@ -33,8 +33,8 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-import net.stehschnitzel.curdforge.common.blocks.te.KefirJarTickEntity;
 
+/*
 public class Kefir extends Block implements EntityBlock {
 	public static final IntegerProperty LEVEL = IntegerProperty.create("level", 0, 15);
 
@@ -144,4 +144,4 @@ public class Kefir extends Block implements EntityBlock {
 			worldIn.addParticle(ParticleTypes.SMOKE, d0, d1, d2, 0.0D, 0.0D, 0.0D);
 		}
 	}
-}
+} */

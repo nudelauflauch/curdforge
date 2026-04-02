@@ -35,7 +35,7 @@ public class CuddlyCactus extends BushBlock implements IPlantable {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockGetter worldIn, BlockPos pos, BlockState state) {
-		return new ItemStack(CFItemInit.OPUNTIEN_BLOSSOM.get());
+		return new ItemStack(CFItemInit.OPUNTIA_BLOSSOM.get());
 	}
 
 	public VoxelShape getShape(BlockState state, BlockGetter worldIn, BlockPos pos, CollisionContext context) {
@@ -56,13 +56,13 @@ public class CuddlyCactus extends BushBlock implements IPlantable {
 			return InteractionResult.PASS;
 		} else if (i > 4 && i == 8) {
 			int j = 1 + worldIn.random.nextInt(2);
-			popResource(worldIn, pos, new ItemStack(CFItemInit.OPUNTIEN_BLOSSOM.get(), j + (flag ? i : i - 4) - 2));
-			popResource(worldIn, pos, new ItemStack(CFItemInit.TIBICOS.get(), j + (flag ? i : 1 - 0) - 1));
+			popResource(worldIn, pos, new ItemStack(CFItemInit.OPUNTIA_BLOSSOM.get(), j + (flag ? i : i - 4) - 2));
+			//popResource(worldIn, pos, new ItemStack(CFItemInit.TIBICOS.get(), j + (flag ? i : 1 - 0) - 1));
 			worldIn.setBlock(pos, state.setValue(AGE, Integer.valueOf(4)), 2);
 			return InteractionResult.SUCCESS;
 		} else if (i > 4) {
 			int j = 1 + worldIn.random.nextInt(2);
-			popResource(worldIn, pos, new ItemStack(CFItemInit.OPUNTIEN_BLOSSOM.get(), j + (flag ? i : i - 4) - 1));
+			popResource(worldIn, pos, new ItemStack(CFItemInit.OPUNTIA_BLOSSOM.get(), j + (flag ? i : i - 4) - 1));
 			worldIn.setBlock(pos, state.setValue(AGE, Integer.valueOf(4)), 2);
 			return InteractionResult.SUCCESS;
 		} else {

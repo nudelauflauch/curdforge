@@ -1,4 +1,4 @@
-package nudelauflauch.curd_mod.common.blocks;
+package net.stehschnitzel.curdforge.common.blocks;
 
 import java.util.stream.Stream;
 
@@ -23,6 +23,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
+/*
 public class CurdPot extends Block {
 	public static final IntegerProperty LEVEL = IntegerProperty.create("level", 0, 3);;
 
@@ -68,4 +69,4 @@ public class CurdPot extends Block {
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(LEVEL);
 	}
-}
+} */

@@ -1,4 +1,4 @@
-package nudelauflauch.curd_mod.common.item;
+package net.stehschnitzel.curdforge.common.item;
 
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.server.level.ServerPlayer;

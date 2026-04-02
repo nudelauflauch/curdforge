@@ -6,10 +6,8 @@ import net.minecraft.util.Mth;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import nudelauflauch.curd_mod.common.blocks.Kefir;
-import nudelauflauch.curd_mod.common.blocks.Kefir_crystallizer;
-import nudelauflauch.curd_mod.core.init.BlockInit;
 
+/*
 public class KefirJarTickEntity extends BlockEntity {
 	public static final String TIMER = "timer";
 
@@ -65,3 +63,4 @@ public class KefirJarTickEntity extends BlockEntity {
 		}
 	}
 }
+*/

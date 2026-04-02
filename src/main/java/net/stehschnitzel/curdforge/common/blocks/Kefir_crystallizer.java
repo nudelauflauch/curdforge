@@ -1,4 +1,4 @@
-package nudelauflauch.curd_mod.common.blocks;
+package net.stehschnitzel.curdforge.common.blocks;
 
 import java.util.Random;
 import java.util.stream.Stream;
@@ -32,9 +32,8 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.stehschnitzel.curdforge.common.blocks.te.KefirKrystallizerTileEntity;
-import nudelauflauch.curd_mod.core.init.BlockInit;
 
+/*
 public class Kefir_crystallizer extends Block implements EntityBlock {
 
 	public static final IntegerProperty LEVEL = IntegerProperty.create("level", 0, 4);;
@@ -91,14 +90,14 @@ public class Kefir_crystallizer extends Block implements EntityBlock {
 		Item item = itemstack.getItem();
 		if (!worldIn.isClientSide) {
 
-			if (i == 0 && item == nudelauflauch.curd_mod.core.init.CFItemInit.TIBICOS.get()) {
+			if (i == 0 && item == CFItemInit.TIBICOS.get()) {
 				worldIn.playSound((Player) null, pos, SoundEvents.SAND_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
 				Funktions.dropp(state, worldIn, pos, player, handIn, hit, item, false, LEVEL, 1);
 			} else if (i == 1 && item == Items.SUGAR) {
 				worldIn.playSound((Player) null, pos, SoundEvents.SAND_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
 				Funktions.dropp(state, worldIn, pos, player, handIn, hit, item, false, LEVEL, 2);
 			} else if (i == 3) {
-				popResource(worldIn, pos, new ItemStack(nudelauflauch.curd_mod.core.init.CFItemInit.KEFIR_CRYSTAL.get(), 1));
+				popResource(worldIn, pos, new ItemStack(CFItemInit.KEFIR_CRYSTAL.get(), 1));
 				worldIn.setBlockAndUpdate(pos, state.setValue(LEVEL, Integer.valueOf(Mth.clamp(0, 0, 3))));
 			}
 		}
@@ -138,4 +137,4 @@ public class Kefir_crystallizer extends Block implements EntityBlock {
 		}
 	}
 
-}
+} */

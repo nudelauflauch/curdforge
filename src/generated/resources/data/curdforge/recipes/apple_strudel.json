@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "C": {
+      "item": "curdforge:curd"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#A#",
+    "#C#"
+  ],
+  "result": {
+    "count": 2,
+    "item": "curdforge:apple_strudel"
+  },
+  "show_notification": true
+}
