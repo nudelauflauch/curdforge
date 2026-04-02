@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "curdforge:block/cuddly_cactus_0"
+    },
+    "age=1": {
+      "model": "curdforge:block/cuddly_cactus_1"
+    },
+    "age=2": {
+      "model": "curdforge:block/cuddly_cactus_2"
+    },
+    "age=3": {
+      "model": "curdforge:block/cuddly_cactus_3"
+    },
+    "age=4": {
+      "model": "curdforge:block/cuddly_cactus_4"
+    },
+    "age=5": {
+      "model": "curdforge:block/cuddly_cactus_5"
+    },
+    "age=6": {
+      "model": "curdforge:block/cuddly_cactus_6"
+    },
+    "age=7": {
+      "model": "curdforge:block/cuddly_cactus_7"
+    },
+    "age=8": {
+      "model": "curdforge:block/cuddly_cactus_8"
+    }
+  }
+}
