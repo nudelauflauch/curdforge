@@ -45,7 +45,7 @@ public class CFItemInit {
                             .saturationMod(1f)
                             .fast().build())));
 
-    public static final RegistryObject<Item> PUMPKIN_TARTAR = ITEMS.register("pumpkin_tartar",
+    public static final RegistryObject<Item> PUMPKIN_TART = ITEMS.register("pumpkin_tart",
             () -> new Item(new Item.Properties().food(
                     new FoodProperties.Builder().nutrition(6)
                             .saturationMod(0.5f)

@@ -3,19 +3,17 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:wheat"
+      "item": "farmersdelight:milk_bottle"
     },
     {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:sugar"
     },
     {
       "item": "curdforge:curd"
     }
   ],
   "result": {
-    "item": "curdforge:pumpkin_tartar"
+    "count": 4,
+    "item": "curdforge:milk_pudding"
   }
 }

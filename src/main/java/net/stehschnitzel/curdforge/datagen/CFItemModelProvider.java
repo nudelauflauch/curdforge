@@ -23,7 +23,7 @@ public class CFItemModelProvider extends ItemModelProvider {
         simpleItem(CFItemInit.APPLE_STRUDEL);
         simpleItem(CFItemInit.CURD_CHEESE_POCKET);
         simpleItem(CFItemInit.MILK_PUDDING);
-        simpleItem(CFItemInit.PUMPKIN_TARTAR);
+        simpleItem(CFItemInit.PUMPKIN_TART);
         simpleItem(CFItemInit.SWEET_BERRY_ROLE);
     }
 

@@ -27,7 +27,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "curdforge:pumpkin_tartar"
+        "recipe": "curdforge:pumpkin_tart"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -41,7 +41,7 @@
   ],
   "rewards": {
     "recipes": [
-      "curdforge:pumpkin_tartar"
+      "curdforge:pumpkin_tart"
     ]
   },
   "sends_telemetry_event": false
